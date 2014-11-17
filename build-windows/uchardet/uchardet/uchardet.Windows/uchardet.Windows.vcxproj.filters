@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\src\Big5Freq.tab" />
+    <None Include="..\..\..\..\src\EUCKRFreq.tab" />
+    <None Include="..\..\..\..\src\EUCTWFreq.tab" />
+    <None Include="..\..\..\..\src\GB2312Freq.tab" />
+    <None Include="..\..\..\..\src\JISFreq.tab" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\CharDistribution.cpp" />
+    <ClCompile Include="..\..\..\..\src\JpCntx.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangBulgarianModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangCyrillicModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangGreekModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangHebrewModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangHungarianModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\LangThaiModel.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsBig5Prober.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsCharSetProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsEscCharsetProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsEscSM.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsEUCJPProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsEUCKRProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsEUCTWProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsGB2312Prober.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsHebrewProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsLatin1Prober.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsMBCSGroupProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsMBCSSM.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsSBCharSetProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsSBCSGroupProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsSJISProber.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsUniversalDetector.cpp" />
+    <ClCompile Include="..\..\..\..\src\nsUTF8Prober.cpp" />
+    <ClCompile Include="..\..\..\..\src\uchardet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\CharDistribution.h" />
+    <ClInclude Include="..\..\..\..\src\JpCntx.h" />
+    <ClInclude Include="..\..\..\..\src\nsBig5Prober.h" />
+    <ClInclude Include="..\..\..\..\src\nsCharSetProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsCodingStateMachine.h" />
+    <ClInclude Include="..\..\..\..\src\nscore.h" />
+    <ClInclude Include="..\..\..\..\src\nsEscCharsetProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsEUCJPProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsEUCKRProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsEUCTWProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsGB2312Prober.h" />
+    <ClInclude Include="..\..\..\..\src\nsHebrewProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsLatin1Prober.h" />
+    <ClInclude Include="..\..\..\..\src\nsMBCSGroupProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsPkgInt.h" />
+    <ClInclude Include="..\..\..\..\src\nsSBCharSetProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsSBCSGroupProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsSJISProber.h" />
+    <ClInclude Include="..\..\..\..\src\nsUniversalDetector.h" />
+    <ClInclude Include="..\..\..\..\src\nsUTF8Prober.h" />
+    <ClInclude Include="..\..\..\..\src\prmem.h" />
+    <ClInclude Include="..\..\..\..\src\uchardet.h" />
+  </ItemGroup>
+</Project>
