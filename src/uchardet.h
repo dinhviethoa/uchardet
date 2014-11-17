@@ -43,8 +43,8 @@ extern "C" {
 
 #include <stddef.h>
 
-#ifdef _MSC_VER_
-#	ifdef LIBETPAN_DLL
+#ifdef _MSC_VER
+#	ifdef UCHARDET_DLL
 #		define UCHARDET_EXPORT __declspec(dllexport)
 #	else
 #		define UCHARDET_EXPORT __declspec(dllimport)
