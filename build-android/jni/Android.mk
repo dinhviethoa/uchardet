@@ -19,6 +19,5 @@ LOCAL_C_INCLUDES := \
   $(ANDROID_NDK)/sources/cxx-stl/llvm-libc++/libcxx/include
 LOCAL_MODULE := uchardet
 LOCAL_SRC_FILES := $(addprefix $(src_dir)/, $(src_files))
-LOCAL_LDLIBS += -L$(ANDROID_NDK)/sources/cxx-stl/llvm-libc++/libs/$(TARGET_ARCH_ABI)
 
 include $(BUILD_STATIC_LIBRARY)
